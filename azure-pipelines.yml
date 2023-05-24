@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: 'rad-macbuilder1'
 
 steps:
 - task: Maven@3
